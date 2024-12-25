@@ -1,0 +1,11 @@
+id = "poe-filter"
+name = "Path of Exile Filter"
+version = "0.0.1"
+schema_version = 1
+authors = ["egibs <evan@egibs.xyz>"]
+description = "Path of Exile .filter file syntax highlighting for Zed."
+repository = "https://github.com/egibs/poe.zed"
+
+[grammars.filter]
+repository = "https://github.com/egibs/tree-sitter-poe.git"
+commit = "2f2a4c818570fe7140c5564dbb8872bc533b2a62"
